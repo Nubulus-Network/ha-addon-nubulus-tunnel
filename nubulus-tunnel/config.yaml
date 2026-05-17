@@ -1,9 +1,11 @@
 name: "Nubulus Tunnel"
 description: "Expose your Home Assistant to the internet via Nubulus Network tunnels — no open ports, no public IP required."
-version: "1.0.2"
+version: "1.0.3"
 slug: "nubulus-tunnel"
 arch:
   - amd64
+  - aarch64
+  - armv7
 url: "https://nubulusnetwork.es"
 startup: application
 boot: auto

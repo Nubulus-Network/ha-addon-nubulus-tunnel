@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Add multi-arch support: aarch64 (arm64) and armv7 in addition to amd64
+
 ## 1.0.2
 
 - Add add-on icon and logo
