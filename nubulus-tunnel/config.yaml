@@ -1,0 +1,21 @@
+name: "Nubulus Tunnel"
+description: "Expose your Home Assistant to the internet via Nubulus Network tunnels — no open ports, no public IP required."
+version: "1.0.0"
+slug: "nubulus-tunnel"
+arch:
+  - amd64
+url: "https://nubulusnetwork.es"
+startup: application
+boot: auto
+init: false
+host_network: false
+
+options:
+  tunnel_token: ""
+  log_level: "info"
+  api_url: "https://tunnel-gw.as210469.net"
+
+schema:
+  tunnel_token: str
+  log_level: list(debug|info|warn|error)
+  api_url: str

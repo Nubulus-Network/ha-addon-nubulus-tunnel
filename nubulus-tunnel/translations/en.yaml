@@ -1,0 +1,10 @@
+configuration:
+  tunnel_token:
+    name: Tunnel Token
+    description: "Token from your Nubulus tunnel (format: tun_xxxxxxx). Create one at app.nubulusnetwork.es"
+  log_level:
+    name: Log Level
+    description: "Logging verbosity for the tunnel agent"
+  api_url:
+    name: API URL
+    description: "Nubulus API endpoint. Only change this if instructed by support."
