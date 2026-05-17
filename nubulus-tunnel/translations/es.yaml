@@ -5,6 +5,3 @@ configuration:
   log_level:
     name: Nivel de log
     description: "Nivel de detalle del registro del agente de túnel"
-  api_url:
-    name: URL de la API
-    description: "Endpoint de la API de Nubulus. Cámbialo solo si el soporte te lo indica."

@@ -37,7 +37,6 @@ forwarded by the gateway through the tunnel to your Home Assistant instance.
 |---|---|---|---|
 | `tunnel_token` | Yes | — | Token from your Nubulus tunnel (format: `tun_xxxxxxx`). |
 | `log_level` | No | `info` | Logging verbosity: `debug`, `info`, `warn`, or `error`. |
-| `api_url` | No | `https://tunnel-gw.as210469.net` | Nubulus API endpoint. Only change if instructed by support. |
 
 ## How it works
 

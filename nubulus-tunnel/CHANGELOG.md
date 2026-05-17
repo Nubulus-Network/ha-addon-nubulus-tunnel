@@ -1,3 +1,7 @@
+## 1.0.1
+
+- Remove API URL configuration option (endpoint is bundled in the agent binary)
+
 ## 1.0.0
 
 - Initial release
