@@ -1,3 +1,7 @@
+## 1.0.2
+
+- Add add-on icon and logo
+
 ## 1.0.1
 
 - Remove API URL configuration option (endpoint is bundled in the agent binary)

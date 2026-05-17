@@ -4,7 +4,7 @@ FROM code.as210469.net/nubulusnetworkopensource/tunnel:v3.0.0 AS extract
 # Stage 2: build the final add-on image on top of the HA base
 FROM ghcr.io/home-assistant/base:latest
 
-LABEL io.hass.version="1.0.1"
+LABEL io.hass.version="1.0.2"
 LABEL io.hass.type="addon"
 LABEL io.hass.arch="amd64"
 
